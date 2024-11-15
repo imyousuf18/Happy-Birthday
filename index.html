@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Scroll Sections</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+
+</head>
+
+<body>
+
+
+
+    <section class="bg-white dark:bg-gray-900 py-40">
+        <div class="py-16 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
+            <h1
+                class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+                Happy Birthday Gappa Chaaannn!!!</h1>
+            <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">
+                I know this does not make up for a physical gift but this is just a small appreciation for whatever you
+                have done for me. Since the day our friendship started, you have been holding that bond ever since and
+                so smoothly. I am really grateful to you and I hope you would like this.
+            </p>
+        </div>
+    </section>
+
+
+
+
+    <div class="grid md:grid-cols-2 gap-8">
+
+
+        <div id="gallery" class="hidden relative w-full mt-24 px-16" data-carousel="slide">
+            <!-- Carousel wrapper -->
+            <div class="relative min-h-96 overflow-hidden rounded-lg md:h-96">
+                <!-- Item 1 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="./Assets/fatima-images/section5.jpg"
+                        class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                        alt="">
+                </div>
+                <!-- Item 2 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                    <img src="./Assets/fatima-images/1.jpg"
+                        class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                        alt="">
+                </div>
+                <!-- Item 3 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="./Assets/fatima-images/section-1.jpg"
+                        class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                        alt="">
+                </div>
+                <!-- Item 4 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="./Assets/fatima-images/section-2-edit.jpg"
+                        class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                        alt="">
+                </div>
+                <!-- Item 5 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="./Assets/fatima-images/section2.jpg"
+                        class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                        alt="">
+                </div>
+            </div>
+            <!-- Slider controls -->
+            <button type="button"
+                class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-prev>
+                <span
+                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M5 1 1 5l4 4" />
+                    </svg>
+                    <span class="sr-only">Previous</span>
+                </span>
+            </button>
+            <button type="button"
+                class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-next>
+                <span
+                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m1 9 4-4-4-4" />
+                    </svg>
+                    <span class="sr-only">Next</span>
+                </span>
+            </button>
+        </div>
+
+
+
+        <div class=" p-8 md:p-12 mx-auto my-auto">
+            <h2 class="text-gray-900 text-3xl font-extrabold mb-2">Start with Flowbite Design System
+            </h2>
+            <p class="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">Static websites are now used to
+                bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both
+                web designers and developers.</p>
+        </div>
+    </div>
+
+
+
+    <div
+        class="w-full lg:mt-24 mx-auto max-w-3xl p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+        <div class="flex items-center justify-between mb-4">
+            <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white">Latest Customers</h5>
+        </div>
+        <div class="flow-root">
+            <ul role="list" class="divide-y divide-gray-200 dark:divide-gray-700">
+                <li class="py-3 sm:py-4">
+                    <div class="flex items-center">
+                        <div class="flex-1 min-w-0 ms-4">
+                            <p class="text-sm font-medium text-gray-900 dark:text-white">
+                                Lorem, ipsum dolor.
+                            </p>
+                            <p class="text-sm text-gray-500 dark:text-gray-400">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse ex hic mollitia quas
+                                dolores corrupti, impedit quis debitis aliquid! Fugiat atque deserunt facilis!
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="py-3 sm:py-4">
+                    <div class="flex items-center">
+                        <div class="flex-1 min-w-0 ms-4">
+                            <p class="text-sm font-medium text-gray-900 dark:text-white">
+                                Lorem, ipsum dolor.
+                            </p>
+                            <p class="text-sm text-gray-500 dark:text-gray-400">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse ex hic mollitia quas
+                                dolores corrupti, impedit quis debitis aliquid! Fugiat atque deserunt facilis!
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="py-3 sm:py-4">
+                    <div class="flex items-center">
+                        <div class="flex-1 min-w-0 ms-4">
+                            <p class="text-sm font-medium text-gray-900 dark:text-white">
+                                Lorem, ipsum dolor.
+                            </p>
+                            <p class="text-sm text-gray-500 dark:text-gray-400">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse ex hic mollitia quas
+                                dolores corrupti, impedit quis debitis aliquid! Fugiat atque deserunt facilis!
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="py-3 sm:py-4">
+                    <div class="flex items-center">
+                        <div class="flex-1 min-w-0 ms-4">
+                            <p class="text-sm font-medium text-gray-900 dark:text-white">
+                                Lorem, ipsum dolor.
+                            </p>
+                            <p class="text-sm text-gray-500 dark:text-gray-400">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse ex hic mollitia quas
+                                dolores corrupti, impedit quis debitis aliquid! Fugiat atque deserunt facilis!
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="py-3 sm:py-4">
+                    <div class="flex items-center">
+                        <div class="flex-1 min-w-0 ms-4">
+                            <p class="text-sm font-medium text-gray-900 dark:text-white">
+                                Lorem, ipsum dolor.
+                            </p>
+                            <p class="text-sm text-gray-500 dark:text-gray-400">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse ex hic mollitia quas
+                                dolores corrupti, impedit quis debitis aliquid! Fugiat atque deserunt facilis!
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+</body>
+
+
+</html>
