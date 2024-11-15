@@ -2,13 +2,42 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Scroll Sections</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
-    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Fatima</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+
+
+  <!-- Fonts Here -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Birthstone&family=Corinthia:wght@400;700&family=DynaPuff:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+
+
+  <style>
+    .head-text {
+      font-family: "Sour Gummy", serif;
+    }
+
+    .para-text {
+      font-family: "Poppins", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16px;
+    }
+
+    .back-clr {
+      background: rgb(67, 66, 66);
+      background: linear-gradient(170deg, rgba(67, 66, 66, 1) 37%, rgba(129, 103, 151, 1) 73%);
+    }
+  </style>
+
 
 </head>
 
@@ -16,167 +45,176 @@
 
 
 
-    <section class="bg-white dark:bg-gray-900 py-40">
-        <div class="py-16 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
-            <h1
-                class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-                Happy Birthday Gappa Chaaannn!!!</h1>
-            <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">
-                Wishing you a really great and epic birthday. I know this does not make up for a physical gift but this is just a small appreciation for whatever you
-                have done for me. Since the day our friendship started, you have been holding that bond ever since and
-                so smoothly. I am really grateful to you and I hope you would like this.
-            </p>
+  <section class="back-clr dark:bg-gray-900 py-40">
+    <div class="py-16 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
+      <h1
+        class="head-text mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+        Happy Birthday Gappa Chaaannn!!</h1>
+      <p class="para-text mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">
+        Wishing you a really great and epic birthday. I know this does not make up for a physical gift but this is just
+        a small appreciation for whatever you
+        have done for me. Since the day our friendship started, you have been holding that bond ever since and
+        so smoothly. I am really grateful to you and I hope you would like this.
+      </p>
+    </div>
+  </section>
+
+
+
+
+  <div class="grid md:grid-cols-2 gap-8">
+
+
+    <div id="gallery" class="relative w-full mt-24 px-16" data-carousel="slide">
+      <!-- Carousel wrapper -->
+      <div class="relative min-h-96 overflow-hidden rounded-lg md:h-96">
+        <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="./Assets/fatima-images/section5.jpg"
+            class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
         </div>
-    </section>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+          <img src="./Assets/fatima-images/1.jpg"
+            class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="./Assets/fatima-images/section-1.jpg"
+            class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+        <!-- Item 4 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="./Assets/fatima-images/section-2-edit.jpg"
+            class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+        <!-- Item 5 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="./Assets/fatima-images/section2.jpg"
+            class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+      </div>
+      <!-- Slider controls -->
+      <button type="button"
+        class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+        data-carousel-prev>
+        <span
+          class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M5 1 1 5l4 4" />
+          </svg>
+          <span class="sr-only">Previous</span>
+        </span>
+      </button>
+      <button type="button"
+        class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+        data-carousel-next>
+        <span
+          class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="m1 9 4-4-4-4" />
+          </svg>
+          <span class="sr-only">Next</span>
+        </span>
+      </button>
+    </div>
 
 
 
+    <div class=" p-8 md:p-12 mx-auto my-auto">
+      <h2 class="head-text text-gray-900 text-3xl font-extrabold mb-2"> Some memories I gathered.
+      </h2>
+      <p class="para-text text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">These are some of the memories I
+        could gather
+        of us. <br>
+        The first picture is obviously both of us in the same frame, and I always pray that wherever we are in our lives
+        in the future
+        we both are in the same frame by heart.
+        <br> The other pictures is just you and they are also a reminder for me on how beautiful my Bestfriend is and
+        how
+        lucky I am to have that kind of person in my life.
+      </p>
+    </div>
+  </div>
 
-    <div class="grid md:grid-cols-2 gap-8">
 
 
-        <div id="gallery" class="relative w-full mt-24 px-16" data-carousel="slide">
-            <!-- Carousel wrapper -->
-            <div class="relative min-h-96 overflow-hidden rounded-lg md:h-96">
-                <!-- Item 1 -->
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="./Assets/fatima-images/section5.jpg"
-                        class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                        alt="">
-                </div>
-                <!-- Item 2 -->
-                <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-                    <img src="./Assets/fatima-images/1.jpg"
-                        class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                        alt="">
-                </div>
-                <!-- Item 3 -->
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="./Assets/fatima-images/section-1.jpg"
-                        class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                        alt="">
-                </div>
-                <!-- Item 4 -->
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="./Assets/fatima-images/section-2-edit.jpg"
-                        class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                        alt="">
-                </div>
-                <!-- Item 5 -->
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="./Assets/fatima-images/section2.jpg"
-                        class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                        alt="">
-                </div>
+  <div
+    class="w-full lg:mt-24 mx-auto max-w-3xl p-4 back-clr border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+    <div class="flex items-center justify-between mb-4">
+      <h5 class="head-text text-xl font-bold leading-none text-gray-900 dark:text-white">Now, I know this would have
+        gone too
+        much, but I promise this is the last one.
+        These are the things that I really like about you and I believe I cannot literally find the person who has these
+        kind of qualities. NEVER!</h5>
+    </div>
+    <div class="flow-root">
+      <ul role="list" class="divide-y divide-gray-200 dark:divide-gray-700">
+        <li class="py-3 sm:py-4">
+          <div class="flex items-center">
+            <div class="flex-1 min-w-0 ms-4">
+              <p class="para-text text-sm font-small text-gray-900 dark:text-white">
+                We both share a similar mindset and are usually in sync with each other’s thoughts.
+                I truly love this about us—we can understand what the other is thinking, even without saying a word.
+              </p>
             </div>
-            <!-- Slider controls -->
-            <button type="button"
-                class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-                data-carousel-prev>
-                <span
-                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M5 1 1 5l4 4" />
-                    </svg>
-                    <span class="sr-only">Previous</span>
-                </span>
-            </button>
-            <button type="button"
-                class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-                data-carousel-next>
-                <span
-                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="m1 9 4-4-4-4" />
-                    </svg>
-                    <span class="sr-only">Next</span>
-                </span>
-            </button>
-        </div>
-
-
-
-        <div class=" p-8 md:p-12 mx-auto my-auto">
-            <h2 class="text-gray-900 text-3xl font-extrabold mb-2"> Some memories I gathered.
-            </h2>
-            <p class="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">These are some of the memories I could gather of us. <br> 
-                The first picture is obviously both of us in the same frame, and I always pray that wherever we are in our lives in the future
-            we both are in the same frame by heart. 
-            <br> The other pictures is just you and they are also a reminder for me on how beautiful my Bestfriend is and how 
-                lucky I am to have that kind of person in my life.
-            </p>
-        </div>
+          </div>
+        </li>
+        <li class="py-3 sm:py-4">
+          <div class="flex items-center">
+            <div class="flex-1 min-w-0 ms-4">
+              <p class="para-text text-sm font-small text-gray-900 dark:text-white">
+                I just enjoy spending time with you.
+                It doesn’t matter whether I’m tired, sleepy, or anything else—if I’m with you, all the tiredness and
+                sleepiness just fade away.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="py-3 sm:py-4">
+          <div class="flex items-center">
+            <div class="flex-1 min-w-0 ms-4">
+              <p class="para-text text-sm font-small text-gray-900 dark:text-white">
+                I've got some serious mood swings but you are the one always getting what mood I'm in and I don't know
+                how but you
+                always act accordingly.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="py-3 sm:py-4">
+          <div class="flex items-center">
+            <div class="flex-1 min-w-0 ms-4">
+              <p class="para-text text-sm font-small text-gray-900 dark:text-white">
+                That was just the start. Have we even started talking about YOUR appearance yet?
+                <br> Well, if I started writing all about you I believe it could take me hours to just write about your
+                personality.
+                (That's not a lie, you can try if you want I will be happy to do that).
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="py-3 sm:py-4">
+          <div class="flex items-center">
+            <div class="flex-1 min-w-0 ms-4">
+              <p class="para-text text-sm font-small text-gray-600 dark:text-white">
+                The way you always have that respect and care for your friends is what I have desired in my life
+                forever.
+                I do not trust anyone blindly but it was some connection with you since we started talking and you see,
+                Here we are.
+                <br> Now, let's wrap this up, because you might have other wishes to read so let's just end this one
+                quickly.
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
     </div>
-
-
-
-    <div
-        class="w-full lg:mt-24 mx-auto max-w-3xl p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
-        <div class="flex items-center justify-between mb-4">
-            <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white">Now, I know this would have gone too much, but I promise this is the last one. 
-                These are the things that I really like about you and I believe I cannot literally find the person who has these kind of qualities. NEVER!</h5>
-        </div>
-        <div class="flow-root">
-            <ul role="list" class="divide-y divide-gray-200 dark:divide-gray-700">
-                <li class="py-3 sm:py-4">
-                    <div class="flex items-center">
-                        <div class="flex-1 min-w-0 ms-4">
-                            <p class="text-sm font-medium text-gray-900 dark:text-white">
-                                We both share a similar mindset and are usually in sync with each other’s thoughts.
-                                I truly love this about us—we can understand what the other is thinking, even without saying a word.
-                            </p>
-                        </div>
-                    </div>
-                </li>
-                <li class="py-3 sm:py-4">
-                    <div class="flex items-center">
-                        <div class="flex-1 min-w-0 ms-4">
-                            <p class="text-sm font-medium text-gray-900 dark:text-white">
-                                I just enjoy spending time with you. 
-                                It doesn’t matter whether I’m tired, sleepy, or anything else—if I’m with you, all the tiredness and sleepiness just fade away.
-                            </p>
-                        </div>
-                    </div>
-                </li>
-                <li class="py-3 sm:py-4">
-                    <div class="flex items-center">
-                        <div class="flex-1 min-w-0 ms-4">
-                            <p class="text-sm font-medium text-gray-900 dark:text-white">
-                                I've got some serious mood swings but you are the one always getting what mood I'm in and I don't know how but you 
-                                always act accordingly.
-                            </p>
-                        </div>
-                    </div>
-                </li>
-                <li class="py-3 sm:py-4">
-                    <div class="flex items-center">
-                        <div class="flex-1 min-w-0 ms-4">
-                            <p class="text-sm font-medium text-gray-900 dark:text-white">
-                                That was just the start. Have we even started talking about YOUR appearance yet? 
-                                <br> Well, if I started writing all about you I believe it could take me hours to just write about your personality.
-                                (That's not a lie, you can try if you want I will be happy to do that).
-                            </p>
-                        </div>
-                    </div>
-                </li>
-                <li class="py-3 sm:py-4">
-                    <div class="flex items-center">
-                        <div class="flex-1 min-w-0 ms-4">
-                            <p class="text-sm font-medium text-gray-900 dark:text-white">
-                                The way you always have that respect and care for your friends is what I have desired in my life forever.
-                                I do not trust anyone blindly but it was some connection with you since we started talking and you see, Here we are. 
-                                <br> Now, let's wrap this up, because you might have other wishes to read so let's just end this one quickly.
-                            </p>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
+  </div>
 
 
 
